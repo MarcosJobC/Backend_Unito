@@ -32,7 +32,7 @@ function Header() {
             </Link>
 
               {userInfo ? (
-                <NavDropdown title={<span className="text-white">{userInfo.name} <i className="fas fa-caret-down text-white"></i></span>} id='username'>
+                <NavDropdown title={userInfo.name} id='username'>
                   <NavDropdown.Item as={Link} to="/profile">Profilo</NavDropdown.Item>
                   <NavDropdown.Item onClick={logoutHandler}>Esci</NavDropdown.Item>
                 </NavDropdown>
@@ -45,7 +45,7 @@ function Header() {
               )}
 
               {userInfo && userInfo.isAdmin &&(
-                <NavDropdown title={<span className="text-white">Admin <i className="fas fa-caret-down text-white"></i></span>} id='adminmenue'>
+                <NavDropdown title='Admin' id='adminmenue'>
                   <NavDropdown.Item as={Link} to="/admin/userlist">Utenti registrati</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/admin/productlist">Prodotti registrati</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/admin/orderlist">Lista ordini</NavDropdown.Item>
