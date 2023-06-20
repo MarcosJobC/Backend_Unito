@@ -17,6 +17,6 @@ Per entrare come Admin inserire le credenziali seguenti:
 
 Nome: user
 
-E-mail: admin@admin.con
+E-mail: admin@admin.com
 
 Password: admin
