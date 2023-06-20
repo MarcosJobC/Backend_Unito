@@ -15,8 +15,8 @@ Features disponibili
 
 Per entrare come Admin inserire le credenziali seguenti:
 
-Nome: user
+Nome: PPM
 
-E-mail: admin@admin.com
+E-mail: ppm@email.com
 
-Password: admin
+Password: PPM
